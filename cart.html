@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<header>
+  <div class="logo">FashionShop</div>
+  <nav id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="cart.html"><i class="fa fa-cart-shopping"></i> Cart</a>
+    <a href="about.html">About</a>
+  </nav>
+  <i class="fa fa-bars" id="menuBtn"></i>
+</header>
+
+<section class="cart">
+  <h2>Your Cart</h2>
+
+  <div id="cartItems"></div>
+
+  <h3>Total: $<span id="total">0</span></h3>
+  <button class="btn">Checkout</button>
+</section>
+
+<script src="js/cart.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>
